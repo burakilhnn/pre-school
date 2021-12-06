@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "171778965453",
+    "project_id": "preschool-74e0a",
+    "storage_bucket": "preschool-74e0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171778965453:android:a412835bbcc49ca5ef0e84",
+        "android_client_info": {
+          "package_name": "com.mobill.preschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171778965453-0feqav3mm1rl7acmhb6ga3mlrrtg6kok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXl9gQUpruxMs36Pvi6VmJRRCA2VtyW-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171778965453-0feqav3mm1rl7acmhb6ga3mlrrtg6kok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
