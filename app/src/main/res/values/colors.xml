@@ -7,7 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimary">#C0FEFC</color>
+    <color name="colorprimary">#C0FEFC</color>
     <color name="lightGrey">#6A6E7C</color>
     <color name="blueDark">#0F5CD6</color>
     <color name="darkGrey">#FAFAFA</color>
@@ -29,4 +29,7 @@
     <color name="red">#CE1101</color>
     <color name="PieChartYellow">#DADE04</color>
     <color name="PieChartGrey">#C2E1BF</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">@android:color/holo_green_dark</color>
+    <color name="colorAccent">#000000</color>
 </resources>

@@ -2,10 +2,12 @@ package com.mobill.preschool;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.mobill.preschool.api.Root;
@@ -23,6 +25,7 @@ public class DictionaryActivity extends AppCompatActivity {
     private Button search;
     private EditText word;
     private TextView definition;
+    private ImageView backButton;
     OwlbotApi owlbotApi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,15 @@ public class DictionaryActivity extends AppCompatActivity {
         search = (Button) findViewById(R.id.btnSearch);
         word = (EditText) findViewById(R.id.editTxtWord);
         definition = (TextView) findViewById(R.id.txtDef);
+        backButton = findViewById(R.id.backButton4);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent x = new Intent(DictionaryActivity.this, HomeActivity.class);
+                startActivity(x);
+            }
+        });
 
     }
 

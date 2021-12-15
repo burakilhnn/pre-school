@@ -18,34 +18,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.68" />
 
-    <RelativeLayout
-        android:layout_width="134dp"
-        android:layout_height="193dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
-
-        <ImageView
-            android:id="@+id/backButton1"
-            android:layout_width="30dp"
-            android:layout_height="27dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="17dp"
-            android:layout_marginEnd="79dp"
-            android:layout_marginBottom="135dp"
-            android:elevation="4dp"
-            android:src="@drawable/back"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.042"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.023" />
-
-    </RelativeLayout>
-
     <LinearLayout
         android:id="@+id/linearLayout12"
         android:layout_width="410dp"
@@ -207,18 +179,18 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/btnGames"
+                android:id="@+id/btnTodo"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:padding="14dp"
-                android:src="@drawable/games" />
+                android:src="@drawable/todo" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:gravity="center"
                 android:paddingBottom="5dp"
-                android:text="Games"
+                android:text="ToDo"
                 android:textAlignment="center" />
         </LinearLayout>
 

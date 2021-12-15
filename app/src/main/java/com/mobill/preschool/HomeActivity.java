@@ -13,7 +13,7 @@ public class HomeActivity extends AppCompatActivity {
     ImageView dict;
     ImageView animal;
     ImageView stories;
-    ImageView songs, games;
+    ImageView songs, todo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +24,20 @@ public class HomeActivity extends AppCompatActivity {
         animal = findViewById(R.id.btnAnimals);
         stories = findViewById(R.id.btnStories);
         songs = findViewById(R.id.btnSongs);
-        games = findViewById(R.id.btnGames);
+        todo = findViewById(R.id.btnTodo);
 
         dict.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent x = new Intent(HomeActivity.this, DictionaryActivity.class);
+                startActivity(x);
+            }
+        });
+
+        todo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent x = new Intent(HomeActivity.this, TodoActivity.class);
                 startActivity(x);
             }
         });
